@@ -4,6 +4,17 @@
 
 export const environment = {
   production: false
+
+};
+export const firebaseConfig = {
+  apiKey: "AIzaSyAcOqCJfFHCsDgWVXET8ruwUJhM-k4ieD0",
+  authDomain: "appmobile-133cb.firebaseapp.com",
+  databaseURL: "https://appmobile-133cb.firebaseio.com",
+  projectId: "appmobile-133cb",
+  storageBucket: "appmobile-133cb.appspot.com",
+  messagingSenderId: "298985570300",
+  appId: "1:298985570300:web:e5b50f79f40ce69203fc79",
+  measurementId: "G-YQS2248ECP"
 };
 
 /*

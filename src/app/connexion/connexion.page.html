@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Connexion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+    <ion-input [(ngModel)]="email"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  <br>
+  <div>
+    <ion-button (click)="createAccount()">Inscription</ion-button>
+    <ion-button (click)="login()">Connexion</ion-button>
+  </div>
+  <p>Cette application sert à partager des photos anonymement</p>
+</ion-content>
